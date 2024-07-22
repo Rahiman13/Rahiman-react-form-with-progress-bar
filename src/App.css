@@ -161,11 +161,11 @@ button:hover {
 
 @keyframes animatedBackground {
   from {
-      background-position: 200% 0;
+    background-position: 200% 0;
   }
 
   to {
-      background-position: -200% 0;
+    background-position: -200% 0;
   }
 }
 
@@ -325,4 +325,27 @@ button:hover {
 
 .preview-details strong {
   margin-right: 8px;
+}
+
+/* Style for the input fields of 10th details */
+.input-group.tenth-details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+/* Style for the input fields of intermediate details */
+.input-group.intermediate-details {
+  display: none;
+}
+
+/* Style for the "Add More" button */
+.button-group.add-more {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Hide the "Add More" button after the second click */
+.button-group.add-more.hide {
+  display: none;
 }
